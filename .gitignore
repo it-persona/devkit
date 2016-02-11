@@ -1,0 +1,39 @@
+# +----------------------------+
+# | StarTek gitignore template |
+# +----------------------------+
+
+# PhpStorm IDE IDEA Folder
+.idea
+
+# Files with tilda in extenssion
+*~
+
+# Symfony2 Cache and Logs
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+
+# Symfony2 Parameters Configuration File
+/app/config/parameters.yml
+
+# Managed by Composer
+/app/bootstrap.php.cache
+/vendor/
+
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# Console Scripts
+/bin/

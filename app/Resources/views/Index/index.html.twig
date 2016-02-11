@@ -1,0 +1,9 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}DevKit{% endblock %}
+
+{% block body %}
+    <h1>DevKit Index Template</h1>
+    <h2>{{ var_msg }}</h2>
+    <h3>Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</h3>
+{% endblock %}
