@@ -5,5 +5,11 @@
 {% block body %}
     <h1>DevKit Index Template</h1>
     <h2>{{ var_msg }}</h2>
-    <h3>Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</h3>
+    <h3>Symfony <span>{{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</span></h3>
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        h1 { color: #2f2f2f }
+    </style>
 {% endblock %}
